@@ -1,2 +1,29 @@
 # Patient-Analysis
-Patient Waiting List Analysis Dashboard: Insights into Inpatient &amp; Outpatient Trends
+
+## Project Overview:
+This Power BI project aims to analyze and track the current status of patient waiting lists, focusing on both Inpatient and Outpatient categories. By leveraging historical data spanning from 2018 to 2021, the project offers insights into monthly trends, detailed specialty-level analysis, and age profiles of patients on the waiting list.
+
+## Project Goals:
+1. **Track current status of patient waiting list:** Monitor and visualize the current status of the patient waiting list to identify trends and fluctuations.
+2. **Analyze historical monthly trend of waiting list:** Analyze historical data to understand monthly trends in both Inpatient and Outpatient waiting lists.
+3. **Detailed specialty level & age profile analysis:** Provide granular analysis by specialty and age to identify patterns and demographics of patients on the waiting list.
+
+## Data Scope:
+- **Time Frame:** 2018 - 2021
+
+## Metrics Required:
+1. **Average & Median Waiting List:** Calculate and visualize the average and median waiting times for patients.
+2. **Current Total Wait List:** Display the current total number of patients on the waiting list.
+
+## Views Required:
+1. **Summary Page:** Provide an overview of key metrics and trends at a glance.
+2. **Detailed Page for Granular Analysis:** Offer detailed insights with drill-down capabilities for specialty-level and age-profile analysis.
+
+## DAX Measures Used:
+1. **CALCULATE:** Utilized to modify or filter the context in which a calculation is made.
+2. **SUM:** Employed to calculate the sum of values in a column or a table.
+3. **SWITCH:** Used for conditional logic to return different results based on specified conditions.
+4. **ISBLANK:** Employed to check whether a value is blank and return a Boolean result.
+5. **IF:** Utilized for conditional logic to return different results based on specified conditions.
+6. **EDATE:** Used to calculate a new date by adding or subtracting months from a given date.
+7. **MAX:** Employed to retrieve the maximum value from a set of values.
