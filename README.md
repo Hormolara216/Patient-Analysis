@@ -19,11 +19,9 @@ This Power BI project aims to analyze and track the current status of patient wa
 1. **Summary Page:** Provide an overview of key metrics and trends at a glance.
 2. **Detailed Page for Granular Analysis:** Offer detailed insights with drill-down capabilities for specialty-level and age-profile analysis.
 
-## DAX Measures Used:
+# DAX Measures Used:
 1. **CALCULATE:** Utilized to modify or filter the context in which a calculation is made.
-2. **SUM:** Employed to calculate the sum of values in a column or a table.
-3. **SWITCH:** Used for conditional logic to return different results based on specified conditions.
-4. **ISBLANK:** Employed to check whether a value is blank and return a Boolean result.
-5. **IF:** Utilized for conditional logic to return different results based on specified conditions.
-6. **EDATE:** Used to calculate a new date by adding or subtracting months from a given date.
-7. **MAX:** Employed to retrieve the maximum value from a set of values.
+2. **SUM:** Employed to calculate the sum of values in a column or a table to obtain the total wait list.
+3. **SWITCH:** Used for conditional logic to dynamically display titles based on selected calculation methods.
+4. **ISBLANK:** Employed to check whether a value is blank and replace it with a specified value after filters are applied.
+5. **EDATE:** Used to calculate the date of the previous month of wait list update, providing a reference for analysis.
