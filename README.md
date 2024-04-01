@@ -20,7 +20,7 @@ This Power BI project aims to analyze and track the current status of patient wa
 2. **Detailed Page for Granular Analysis:** Offer detailed insights with drill-down capabilities for specialty-level and age-profile analysis.
 
 ## Dashboards
-![Summary](https://github.com/Hormolara216/Patient-Analysis/blob/main/Analytics%20dashbaord.png?raw=true)
+![Summary]([https://github.com/Hormolara216/Patient-Analysis/blob/main/Analytics%20dashbaord.png?raw=true](https://github.com/Hormolara216/Patient-Analysis/blob/main/Summary%20view.png?raw=true))
 
 
 # DAX Measures Used:
